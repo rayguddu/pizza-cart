@@ -1,87 +1,12 @@
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+node_modules
+build
+dist
 .env
-.env.*.local
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-*.env
-
-# Frontend (React, Angular, Vue, etc.)
-dist/
-build/
-.cache/
+.env.*
 *.log
-
-# OS / Editor
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# Testing
-coverage/
-.nyc_output/
-
-# Logs
-logs/
-*.log
-debug.log
-
-# TypeScript
-*.tsbuildinfo
-
-# Compiled output
-*.out
-*.class
-*.o
-*.so
-
-# Local databases
-*.sqlite
-*.db
-
-# Docker
-docker-compose.override.yml
-
-# Mac system files
+*.lock
 *.swp
-*.bak
-*.tmp
-*~
-
-# JetBrains IDEs
-*.iml
-out/
-
-# Next.js
-.next/
-
-# Svelte
-.svelte-kit/
-
-# Misc
-*.pid
-*.seed
-
-# AWS credentials
-.aws/
-
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.backup
-
-# Optional: Custom config
-local.settings.json
+Thumbs.db
+.DS_Store
+npm-debug.log
+/coverage
