@@ -1,4 +1,5 @@
 // Test ID: IIDSAT
+import calcMinutesLeft from "../../utilities/helpers";
 
 import {
   calcMinutesLeft,
